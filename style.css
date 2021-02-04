@@ -1,0 +1,319 @@
+body{
+    margin: 0px;
+    height: 3000px;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+.glovar-nav{
+    position: fixed;
+    left: 40%;
+    background-color: white;
+    padding-top: 20px;
+}
+.glovar-nav ul{
+    text-align: center ;
+    margin-left: -10px;
+}
+.glovar-nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+    border-right: 1px solid #333;
+    padding-right: 20px;
+    padding-left: 5px;
+}   
+.glovar-nav ul li:first-child{
+    border-left: 1px solid #333;
+    padding-left: 20px;
+}
+.glovar-nav ul a{
+    text-decoration: none;
+    color: #333;
+}
+.logo{
+    padding-left: 100px;
+    position: fixed;
+    background-color: white;
+    padding-top: 20px;
+    padding-right: 60px;
+
+}
+.hero{
+    padding-top: 115px;
+    margin-bottom: 100px;
+}
+.cection{
+    margin-bottom: 100px;
+}
+.heading {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom:100px; 
+    padding: 0px;
+  }
+.heading:before, .heading:after {
+    border-top: 1px solid#333;
+    content: "";
+    width: 3em; 
+  }
+.heading:before {
+    margin-right: 1em; 
+  }
+.heading:after {
+    margin-left: 1em;
+  }
+.article-kodawari{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #c0c0c0;
+}
+.article-kodawari ul{
+    list-style: none outside;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.article-kodawari li{
+    float: left;
+    width:250px;
+    margin: 80px;
+}
+.suppe-img, .noodle-img, .ball-img{
+    border-radius: 120px;
+}
+.suppe-desription , .noodle-deription ,.ball-deription{
+    border-radius: 30px;
+    background-color: #2b2b2b;
+    width: 100%;
+    height: 140px;
+}
+.suppe,.noodle,.ball{
+    width: 100%;
+    color: silver;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: center;
+    margin: auto;
+}
+.suppe p, .noodle p,.ball p
+{
+    color: #cc0a3a;
+    margin: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+.suppe p:nth-of-type(2){
+    color: silver;
+    margin-top: 10px;
+}
+.noodle p:nth-of-type(2){
+    color: silver;
+    margin-top: 10px;
+}
+.ball p:nth-of-type(2){
+    color: silver;
+    margin-top: 10px;
+}
+.article-ryouri{
+    width: 75%;
+    height: 300px;
+    background-color: silver;
+    display: flex;
+    justify-content: space-between;
+    border-radius:0px 30px 30px 0px;
+    margin-bottom:100px ;
+}
+.article-ryouri2{
+    width: 75%;
+    height: 300px;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px 0px 0px 30px;
+    margin-left:25% ;
+    margin-bottom: 100px;
+
+}
+.rice-img , .gyouza-img, .chanpon-img{
+    width: 70%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.rice-img img,.gyouza-img img,.chanpon-img img{
+    width: 100%;
+    height: 100%;
+}
+.access{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+.access::before,.access::after{
+    border-top: 1px solid#333;
+    content: "";
+    width: 3em; 
+    margin: 0em 1em;
+}
+.map-information{
+    background-color: silver;
+    margin: auto;
+    width: 70%;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+.map {
+    margin-left: 70px;
+}
+.information{
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.information p{
+    margin-top: 30px;
+}
+.google-map{
+    margin-top: 25px;
+    width: 350px;
+    height: 200px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.contact::before,.contact::after{
+    content: "";
+    border-top: 1px solid #333;
+    width: 3em;
+    margin: 0px 1em;
+}
+.cection-contact{
+    background-color: silver;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.right , .left{
+    background-color: #f7f5f5;
+    height: 80%;
+}
+.left{
+    margin: 100px 0px 100px 100px;
+}
+.right{
+    margin: 100px 100px 100px 0px;
+}
+input{
+    height: 25px;
+}
+.item-left{
+    margin: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.item-right textarea{
+    height: 300px;
+    width: 300px;
+    margin: 0px 100px 100px 100px;
+}
+.item-right input{
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin: 25px 100px 100px 100px;
+}
+.contact-item{
+    font-size:20px;
+    margin-top:50px;
+    text-align: center;
+}
+.item-right{
+    text-align: center;
+}
+footer{
+    background-color: #d6d6d6;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-list ul{
+    list-style: none;
+}
+.footer-list li{
+    margin-bottom: 10px;
+    margin-right:100px ;
+    width: 150px;
+    background: url(lamen-irasuto.png)left 0px top 6px no-repeat;
+    background-size: 15px auto;
+}
+.footer-list a{
+    text-decoration: none;
+    color: #000000;
+}
+.poppuapp{
+    z-index: 2;
+    background-color: silver;
+    border-radius: 10px;
+    top: 20%;
+    left: 25%;
+    width: 600px;
+    height: 300px;
+    position: fixed;
+}
+.poppuapp h1{
+    color:#db1107;
+    text-align: center;
+}
+.poppuapp p{
+    font-size: 20px;
+    text-align: center;
+}
+.maskimg{
+    display: flex;
+}
+.mask-img{
+    margin: auto;
+}
+.poppuapp-close input{
+    margin-left: 95%;
+}
+.mask{
+    position: fixed;
+    background-color: #000000;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.mask.active{
+    visibility: hidden;
+    opacity: 0;
+}
+.poppuapp.active{
+    visibility: hidden;
+    opacity: 0;
+}
