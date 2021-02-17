@@ -1,0 +1,17 @@
+$(function(){
+    $('.fas').on('click',()=>{
+        $('.fas').css('visibility','hidden')
+        $('.mask').addClass('mask-active')
+        $('.xs-gnav').css('display','flex')
+    });
+    $('.close').on('click',()=>{
+        $('.mask').removeClass('mask-active')
+        $('.fas').css('visibility','visible')
+        $('.xs-gnav').css('display','none')
+    });
+    $('.slid-img').slick({
+        autoplay:true,
+        autoplaySpeed:1500,
+        dots:true,
+    });
+})

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <!-- ブートストラップ（グリッドのみ）読み込み -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- fontawesomeのインストールタグ -->
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <!-- slick読み込み -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="header-logo offset-xs-2 col-xs-6 offset-lg-2">
+                    <div class="logo">
+                        <img src="logo.png" width="100%" height="100%" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-4 d-none d-md-block">
+                    <nav class="gnav">
+                        <ul>
+                            <li><a href="#commit">こだわり</a></li>
+                            <li><a href="#menu">メニュー</a></li>
+                            <li><a href="#infor">店舗情報</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xs-4 d-block d-md-none">
+                    <i class="fas fa-bars"></i>
+                    <div class="mask"></div>
+                    <div class="xs-gnav">
+                        <div class="listtop-log">
+                            <img src="lamen-irasuto.png" alt="">
+                        </div>
+                        <ul>
+                            <li><a class="close" href="#commit">こだわり</a></li>
+                            <li><a class="close" href="#menu">メニュー</a></li>
+                            <li><a class="close" href="#infor">店舗情報</a></li>
+                        </ul>
+                        <button class="xs-gnav-close close">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="container container-slid">
+                <div class="row">
+                    <div class="slid col-12">
+                        <ul class="slid-img">
+                            <li><img width="100%" height="100%" src="lamen.png" alt=""></li>
+                            <li><img width="100%" height="100%" src="souhan.png" alt=""></li>
+                            <li><img width="100%" height="100%" src="chaozu.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="title-border">
+                <h2 id="commit">こだわり</h2>
+            </div>
+          <div class="container container-commit">
+              <div class="row">
+                  <div class="commit offset-1 col-10">
+                    <img width="100%" height="100%" src="lamen.png" alt="">
+                    <p class="d-none d-md-block">最高の一杯</p>
+                    <p class="d-block d-md-none">最高の一杯</p>
+                  </div>
+                  <button class="commit-btn offset-5 col-2 d-none d-md-block">
+                    <p class="lg-commitbtn">
+                        <i class="fas fa-angle-right"></i>
+                        詳しく見る
+                    </p>
+                  </button>
+                  <button class="commit-btn-s offset-4 col-4 d-block d-md-none">
+                    <p class="md-commitbtn">
+                        <i class="fas fa-angle-right"></i>
+                        詳しく見る
+                    </p>
+                  </button>
+              </div>
+          </div>
+        </div>
+        <div class="section">
+            <div class="title-border">
+                <h2 id="menu">メニュー</h2>
+            </div>
+            <div class="container container-menu">
+                <div class="row">
+                   <div class="col-lg-4 cuisine-back">
+                       <div class="cuisine-shape">
+                           <a href="">
+                               <img width="100%" height="100%" src="souhan2.png" alt="">
+                               <h1>飯もの</h1>
+                           </a>
+                       </div>
+                   </div>
+                   <div class="col-lg-4 cuisine-back">
+                        <div class="cuisine-shape">
+                            <a href="">
+                                <img width="100%" height="100%" src="lamen2.png" alt="">
+                                <h1>ラーメン</h1>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 cuisine-back">
+                        <div class="cuisine-shape">
+                            <a href="">
+                                <img width="100%" height="100%" src="chaozu2.png" alt="">
+                                <h1>焼き物</h1>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="commit-btn offset-5 col-2 d-none d-md-block">
+                        <p class="lg-commitbtn">
+                            <i class="fas fa-angle-right"></i>
+                            一覧へ
+                        </p>
+                      </button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="title-border">
+                <h2>店舗情報</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="form-box col-xs-12 col-lg-6">
+                        <div class="form">
+                            <p class="form-head">お客様アンケート</p>
+                            <form action="0000.php" method="post">
+                                <div>
+                                    <label class="first" for="name">お名前</label>
+                                    <input type="text" name="yourname" id="name">
+                                </div>
+                                <div>
+                                    <label class="second" for="mail">メールアドレス</label>
+                                    <input type="mail" name="email" id="mail">
+                                </div>
+                                <div>
+                                <p class="taste-p">味へのご感想</p>
+                                <div class="taste">
+                                    <input type="radio" name="taste" id="umai"><label class="umai" for="umai">うまい</label>
+                                    <input type="radio" name="taste" id="umai"><label class="umai" for="umai">ふつう</label>
+                                    <input type="radio" name="taste" id="umai"><label class="umai" for="umai">まずい</label>
+                                </div>
+                                </div>
+                                <div>
+                                    <label for="inquiry">ご意見</label>
+                                    <textarea name="inquiry" id="inquiry" cols="40" rows="10"></textarea>
+                                </div>                                    <div>
+                                    <input type="submit" value="送信する">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row infor-recruit col-lg-6">
+                        <div class="infor-box col-xs-6 col-lg-12">
+                            <div class="infor" id="infor">
+                                <div class="infor-in">
+                                    <p>博多ラーメン架空</p>
+                                    <p>Tel：
+                                        <a href="tel:0123-456-879">0123-456-879</a>
+                                    </p>
+                                    <p>
+                                        住所：福岡県福岡市博多区０−０−０<br>
+                                        <a href="">マップで見る</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recruit-box col-xs-6 col-lg-12">
+                            <a>
+                                <div class="recurit">
+                                    <h1>求人情報</h1>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2021 NoguchiTaiki</p>
+    </footer>
+<script src="./jquery.js"></script>
+<!-- jquery読み込み -->
+<script src="slick-1.8.1/slick/slick.min.js"></script>
+<!-- slick読み込み -->
+<script src="./script.js"></script>
+</body>
+</html>
