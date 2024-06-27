@@ -76,13 +76,15 @@ header{
 .article-kodawari ul{
     list-style: none outside;
     padding: 0px;
-    margin: 0px;
-    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-left: 50px;
 }
 .article-kodawari li{
-    float: left;
+    /* float: left; */
     width:250px;
-    margin: 80px;
+    flex: auto;
+    margin-right: 150px;
 }
 .suppe-img, .noodle-img, .ball-img{
     border-radius: 120px;
